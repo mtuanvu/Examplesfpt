@@ -1,6 +1,44 @@
-.portfolio {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.list-tab {
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+}
+
+#header {
+  height: 46px;
+  background-color: #000;
+}
+
+#nav {
+}
+
+#nav li {
+  display: inline-block;
+}
+#nav li a {
+  color: #fff;
+  padding: 0 24px;
+  line-height: 46px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#nav .subnav a {
+  display: none;
+}
+
+#slide {
+}
+
+#content {
+}
+
+#footer {
 }
